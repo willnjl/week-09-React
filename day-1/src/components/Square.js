@@ -1,15 +1,16 @@
 import React from "react";
 
-let squareStyle = {
-  backgroundColor: "red",
-  margin: "auto",
-  width: "200px",
-  height: "200px",
-};
-
-const Square = () => (
+const Square = ({ colour, square }) => (
   <>
-    <div style={squareStyle}></div>
+    <div
+      style={{
+        display: square ? "block" : "none",
+        backgroundColor: colour ? colour : "red",
+        margin: "2rem auto",
+        width: "200px",
+        height: "200px",
+      }}
+    ></div>
   </>
 );
 

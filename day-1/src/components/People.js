@@ -1,21 +1,16 @@
 import React from "react";
 
-let names = [
-  "James P. Sullivan",
-  "Mike Wazowski",
-  "Boo",
-  "Randall Boggs",
-  "Roz",
-  "Fungus",
-];
-
-const People = () => (
+const People = ({ names }) => (
   <>
     <section className="list-group">
       <ul>
-        {names.map((name) => {
-          return <li className="list-group-item">{name}</li>;
-        })}
+        {!names ? (
+          <li className="alert alert-warning"> "Nothing To See Here"</li>
+        ) : (
+          names.map((name) => {
+            return <li className="list-group-item">{name}</li>;
+          })
+        )}
       </ul>
     </section>
   </>

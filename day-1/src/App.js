@@ -9,11 +9,7 @@ function App() {
     <main>
       <div
         className="container"
-        style={{
-          border: "1px red solid",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
+        style={{ alignItems: "center", justifyContent: "center" }}
       >
         <Stuff />
       </div>
