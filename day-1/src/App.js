@@ -1,16 +1,12 @@
 import React from "react";
 // import logo from './logo.svg';
-import Header from "./components/Header.js";
-import Paragraph from "./components/Paragraph.js";
-import Square from "./components/Square.js";
-import People from "./components/People.js";
+import Stuff from "./components/stuff";
+
 import "./App.css";
 
 function App() {
   return (
     <main>
-      <Header />
-
       <div
         className="container"
         style={{
@@ -19,9 +15,7 @@ function App() {
           justifyContent: "center",
         }}
       >
-        <Paragraph />
-        <Square />
-        <People />
+        <Stuff />
       </div>
     </main>
   );
