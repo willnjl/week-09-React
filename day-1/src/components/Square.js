@@ -2,6 +2,7 @@ import React from "react";
 
 let squareStyle = {
   backgroundColor: "red",
+  margin: "auto",
   width: "200px",
   height: "200px",
 };
