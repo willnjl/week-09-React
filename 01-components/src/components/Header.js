@@ -1,9 +1,9 @@
 import React from "react";
 
-const Header = ({ text }) => (
+const Header = ({ children }) => (
   <>
     <header className="alert alert-primary">
-      <h1>{text}</h1>
+      <h1>{children}</h1>
     </header>
   </>
 );
