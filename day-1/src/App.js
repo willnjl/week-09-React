@@ -1,11 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import Header from './components/Header.js';
-import './App.css';
+import React from "react";
+// import logo from './logo.svg';
+import Header from "./components/Header.js";
+import Paragraph from "./components/Paragraph.js";
+import "./App.css";
 
 function App() {
-  return(
+  return (
     <Header />
+    <Paragraph />
   );
 }
 
