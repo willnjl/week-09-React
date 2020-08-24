@@ -5,11 +5,16 @@ const People = ({ names }) => (
     <section className="list-group">
       <ul>
         {!names ? (
-          <li className="alert alert-warning"> "Nothing To See Here"</li>
+          <li className="alert alert-warning" key={0}>
+            {" "}
+            "Nothing To See Here"
+          </li>
         ) : (
-          names.map((name) => {
-            return <li className="list-group-item">{name}</li>;
-          })
+          names.map((name, index) => (
+            <li key={index} className="list-group-item">
+              {name}
+            </li>
+          ))
         )}
       </ul>
     </section>
