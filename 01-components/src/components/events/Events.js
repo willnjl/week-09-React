@@ -1,9 +1,9 @@
-import Clicked from "./events/Clicked";
-import Square from "./events/Square";
-import ToggleText from "./events/ToggleText";
-import StepCounter from "./events/StepCounter";
-import CatchMeIfYoCan from "./events/CatchMeIfYouCan";
-import RollCall from "./events/RollCall";
+import Clicked from "./Clicked";
+import Square from "./Square";
+import ToggleText from "./ToggleText";
+import StepCounter from "./StepCounter";
+import CatchMeIfYoCan from "./CatchMeIfYouCan";
+import RollCall from "./RollCall";
 
 import React from "react";
 const Events = () => (

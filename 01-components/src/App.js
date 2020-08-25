@@ -1,9 +1,10 @@
 import React from "react";
 // import logo from './logo.svg';
 import Functional from "./components/functional";
-import Events from "./components/events";
+import Events from "./components/events/Events";
 import Tricksy from "./components/Tricksy";
 import Fade from "./components/Fade";
+import EventsTricksy from "./components/events/EventsTricksy";
 
 import "./App.css";
 
@@ -29,7 +30,8 @@ function App() {
 					<Functional products={products} />
 				  <Tricksy />
 				</Fade> */}
-				<Events />
+				{/* <Events /> */}
+				<EventsTricksy />
 			</div>
 		</main>
 	);
