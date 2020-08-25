@@ -22,7 +22,7 @@ class Square extends Component {
 	render() {
 		const styling = {
 			display: "block",
-			backgroundColor: this.state.active ? this.props.colour : "red",
+			backgroundColor: this.state.active ? this.props.colour : "green",
 			margin: "2rem auto",
 			width: "200px",
 			height: "200px",

@@ -20,7 +20,7 @@ class Clicked extends Component {
 	render() {
 		const clicked = this.state.clicked;
 		return (
-			<p className="" onClick={this.handleClick}>
+			<p className="lead" onClick={this.handleClick}>
 				{clicked ? "Clicked" : "Not Clicked"}
 			</p>
 		);

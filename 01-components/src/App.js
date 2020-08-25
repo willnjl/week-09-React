@@ -19,7 +19,11 @@ function App() {
 		<main>
 			<div
 				className="container"
-				style={{ alignItems: "center", justifyContent: "center" }}
+				style={{
+					justifyContent: "center",
+					alignItems: "center",
+					margin: "auto",
+				}}
 			>
 				{/* <Fade time={"10s"}>
 					<Functional products={products} />
