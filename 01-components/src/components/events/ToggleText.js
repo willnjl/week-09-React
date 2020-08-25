@@ -1,4 +1,4 @@
-import React, { Components, Component } from "react";
+import React, { Component } from "react";
 class ToggleText extends Component {
 	constructor(props) {
 		super(props);
@@ -18,11 +18,11 @@ class ToggleText extends Component {
 
 		return (
 			<div>
-				<p className="lead">{!this.state.toggle ? initial : alternate}</p>
 				<button className="btn btn-danger" onClick={this.toggler}>
 					{" "}
 					Click Me!
 				</button>
+				<p className="lead">{!this.state.toggle ? initial : alternate}</p>
 			</div>
 		);
 	}
