@@ -13,11 +13,8 @@ class Square extends Component {
 
 	handleClick() {
 		let { active } = this.state;
-		if (active === false) {
-			this.setState({ active: true });
-		} else {
-			this.setState({ active: false });
-		}
+
+		this.setState({ active: !active });
 	}
 	render() {
 		const styling = {

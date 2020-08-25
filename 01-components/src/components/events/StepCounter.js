@@ -31,13 +31,15 @@ class StepCounter extends Component {
 		const { current } = this.state;
 		return (
 			<>
-				<p className="lead">{current}</p>
-				<button onClick={this.stepInc} className="btn btn-primary">
-					+
-				</button>
-				<button onClick={this.stepDec} className="btn btn-secondary">
-					-
-				</button>
+				<div className="border">
+					<p className="lead">{current}</p>
+					<button onClick={this.stepInc} className="btn btn-primary">
+						+
+					</button>
+					<button onClick={this.stepDec} className="btn btn-secondary">
+						-
+					</button>
+				</div>
 			</>
 		);
 	}

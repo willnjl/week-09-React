@@ -24,10 +24,12 @@ class RollCall extends Component {
 		const { i } = this.state;
 		return (
 			<>
-				<p>{names[i]}</p>
-				<button onClick={this.handleClick} className={"btn btn-dark"}>
-					Cycle
-				</button>
+				<div className="border">
+					<p>{names[i]}</p>
+					<button onClick={this.handleClick} className={"btn btn-dark"}>
+						Cycle
+					</button>
+				</div>
 			</>
 		);
 	}

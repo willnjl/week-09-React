@@ -17,12 +17,12 @@ class ToggleText extends Component {
 		const { initial, alternate } = this.props;
 
 		return (
-			<div>
+			<div className="border">
+				<p className="lead">{!this.state.toggle ? initial : alternate}</p>
 				<button className="btn btn-danger" onClick={this.toggler}>
 					{" "}
 					Click Me!
 				</button>
-				<p className="lead">{!this.state.toggle ? initial : alternate}</p>
 			</div>
 		);
 	}
