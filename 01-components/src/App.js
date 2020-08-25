@@ -1,9 +1,9 @@
 import React from "react";
 // import logo from './logo.svg';
 import Stuff from "./components/stuff";
-import Basket from "./components/Basket";
-
+import Tricksy from "./components/Tricksy";
 import "./App.css";
+import Fade from "./components/Fade";
 
 const products = [
   { name: "Coffee", price: 2.1 },
@@ -19,8 +19,10 @@ function App() {
         className="container"
         style={{ alignItems: "center", justifyContent: "center" }}
       >
-        <Stuff />
-        <Basket items={products} />
+        {/* <Tricksy /> */}
+        <Fade time={"10s"}>
+          <Stuff products={products} />
+        </Fade>
       </div>
     </main>
   );
