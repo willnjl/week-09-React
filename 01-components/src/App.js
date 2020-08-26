@@ -6,6 +6,7 @@ import Tricksy from "./components/Tricksy";
 import Fade from "./components/Fade";
 import EventsTricksy from "./components/events/EventsTricksy";
 import LifeCycleChallenges from "./components/lifecycle/LifeCycleChallenges";
+import Forms from "./components/forms/Forms";
 
 import "./App.css";
 
@@ -33,7 +34,8 @@ function App() {
 				</Fade> */}
 				{/* <Events /> */}
 				{/* <EventsTricksy /> */}
-				<LifeCycleChallenges />
+				{/* <LifeCycleChallenges /> */}
+				<Forms />
 			</div>
 		</main>
 	);
