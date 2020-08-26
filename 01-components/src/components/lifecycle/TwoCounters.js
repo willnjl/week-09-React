@@ -11,6 +11,15 @@ export default class TwoCounters extends Component {
 		this.handle2 = this.handle2.bind(this);
 	}
 
+	componentDidMount() {
+		const { value2, value1 } = this.state;
+		document.title = value1 + value2;
+	}
+
+	componentDidUpdate() {
+		const { value2, value1 } = this.state;
+		document.title = value1 + value2;
+	}
 	handle1() {
 		const { value1 } = this.state;
 		this.setState({
@@ -24,15 +33,6 @@ export default class TwoCounters extends Component {
 		});
 	}
 
-	componentDidMount() {
-		const { value2, value1 } = this.state;
-		document.title = value1 + value2;
-	}
-
-	componentDidUpdate() {
-		const { value2, value1 } = this.state;
-		document.title = value1 + value2;
-	}
 	render() {
 		const { value1, value2 } = this.state;
 		return (
