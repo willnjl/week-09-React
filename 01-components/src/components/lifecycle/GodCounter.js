@@ -19,6 +19,9 @@ export default class GodCounter extends Component {
 	componentDidMount() {
 		window.addEventListener("click", this.handleClick);
 	}
+	componentWillUnmount() {
+		window.removeEventListener("click", this.handleClick);
+	}
 
 	render() {
 		return (
