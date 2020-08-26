@@ -45,4 +45,7 @@ class StepCounter extends Component {
 	}
 }
 
+StepCounter.defaultProps = {
+	max: 100,
+};
 export default StepCounter;
