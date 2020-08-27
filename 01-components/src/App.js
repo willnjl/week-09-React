@@ -9,8 +9,9 @@ import Stuff from "./components/Stuff";
 import Fade from "./components/Fade";
 // import EventsTricksy from "./components/events/EventsTricksy";
 // import LifeCycleChallenges from "./components/lifecycle/LifeCycleChallenges";
-import Forms from "./components/forms/Forms";
-import Routing from "./components/Routing";
+// import Forms from "./components/forms/Forms";
+// import Routing from "./components/Routing";
+import Prebuilt from "./components/prebuilt/Prebuilt";
 import "./App.css";
 
 const products = [
@@ -31,8 +32,9 @@ function App() {
 					margin: "auto",
 				}}
 			>
-				<Routing />
+				{/* <Routing /> */}
 				<Fade time={"10s"}>{/* <Stuff products={products} /> */}</Fade>
+				<Prebuilt />
 				{/* <Tricksy /> */}
 				{/* <Events /> */}
 				{/* <EventsTricksy /> */}

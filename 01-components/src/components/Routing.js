@@ -18,7 +18,7 @@ export default function Routing() {
 					<Header>Awesome Page Title</Header>
 					<Switch>
 						{/* no props */}
-						<Route exact path="/paragraph">
+						<Route exact path="/">
 							<Paragraph>
 								"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 								accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -37,9 +37,6 @@ export default function Routing() {
 								voluptas nulla pariatur?"
 							</Paragraph>
 						</Route>
-						<Route exact path="/square">
-							<Square colour="blue" />
-						</Route>
 						<Route exact path="/cat">
 							<Img />
 						</Route>
@@ -48,6 +45,13 @@ export default function Routing() {
 
 						<Route path="/people">
 							<People names={["Rohan", "Tom", "Zack", "G", "Dean"]} />
+							<Route
+								exact
+								path="/square/:colour"
+								render={({ match }) => (
+									<Square square={true} colour={match.params.colour} />
+								)}
+							></Route>
 						</Route>
 						<Route exact path="/stepcounter">
 							<StepCounter max={100} step={5} />
