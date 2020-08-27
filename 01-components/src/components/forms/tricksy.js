@@ -18,7 +18,7 @@ export default class Tricksy extends Component {
 	}
 
 	handleSubmit(e) {
-		// e.preventDefault();
+		e.preventDefault();
 		console.log(e);
 		// const { fields, fillLog } = this.state;
 		// const mapped = fields.map((field, i) => {
@@ -31,7 +31,7 @@ export default class Tricksy extends Component {
 			<form onSubmit={(e) => this.handleSubmit(e)}>
 				{this.state.fields.map((label, i) => {
 					return (
-						<>
+						<div className={"form-group"} key={i}>
 							<label htmlFor={label} key={label}>
 								{label}
 							</label>
@@ -41,7 +41,7 @@ export default class Tricksy extends Component {
 								type="text"
 								onChange={(e) => this.handleChange(e)}
 							/>
-						</>
+						</div>
 					);
 				})}
 				<button>Submit</button>
