@@ -1,13 +1,16 @@
 import React from "react";
-// import logo from './logo.svg';
-import Functional from "./components/functional";
-import Events from "./components/events/Events";
-import Tricksy from "./components/Tricksy";
-import Fade from "./components/Fade";
-import EventsTricksy from "./components/events/EventsTricksy";
-import LifeCycleChallenges from "./components/lifecycle/LifeCycleChallenges";
-import Forms from "./components/forms/Forms";
 
+import { BrowserRouter as Router, Route } from "react-router-dom";
+// import Header from "./Header";
+// // import logo from './logo.svg';
+import Stuff from "./components/Stuff";
+// import Events from "./components/events/Events";
+// import Tricksy from "./components/Tricksy";
+import Fade from "./components/Fade";
+// import EventsTricksy from "./components/events/EventsTricksy";
+// import LifeCycleChallenges from "./components/lifecycle/LifeCycleChallenges";
+import Forms from "./components/forms/Forms";
+import Routing from "./components/Routing";
 import "./App.css";
 
 const products = [
@@ -28,14 +31,13 @@ function App() {
 					margin: "auto",
 				}}
 			>
-				{/* <Fade time={"10s"}>
-					<Functional products={products} />
-				  <Tricksy />
-				</Fade> */}
+				<Routing />
+				<Fade time={"10s"}>{/* <Stuff products={products} /> */}</Fade>
+				{/* <Tricksy /> */}
 				{/* <Events /> */}
 				{/* <EventsTricksy /> */}
 				{/* <LifeCycleChallenges /> */}
-				<Forms />
+				{/* <Forms /> */}
 			</div>
 		</main>
 	);
