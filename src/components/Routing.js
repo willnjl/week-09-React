@@ -1,5 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
+// import your history file
+import history from "../history";
+// use Router instead of BrowserRouter
 //Routing Challenges
 import Img from "./routing/Img";
 import Paginiation from "./routing/Pagination";
@@ -13,7 +16,7 @@ import FourOhFor from "./routing/FourOhFor";
 export default function Routing() {
 	return (
 		<>
-			<Router>
+			<Router history={history}>
 				<>
 					<Header>Awesome Page Title</Header>
 					<Switch>
