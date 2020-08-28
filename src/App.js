@@ -1,8 +1,6 @@
 import React from "react";
 
 import { HashRouter as Router, Route } from "react-router-dom";
-import history from "../history";
-import { createHashHistory } from "history";
 import Header from "./components/Header";
 // import logo from './logo.svg';
 import Stuff from "./components/Stuff";
