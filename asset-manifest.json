@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/week-09-React/static/css/main.cf22d254.chunk.css",
-    "main.js": "/week-09-React/static/js/main.bfb1ace5.chunk.js",
-    "main.js.map": "/week-09-React/static/js/main.bfb1ace5.chunk.js.map",
+    "main.js": "/week-09-React/static/js/main.5b415f50.chunk.js",
+    "main.js.map": "/week-09-React/static/js/main.5b415f50.chunk.js.map",
     "runtime-main.js": "/week-09-React/static/js/runtime-main.1ea44539.js",
     "runtime-main.js.map": "/week-09-React/static/js/runtime-main.1ea44539.js.map",
-    "static/js/2.c93fbb7c.chunk.js": "/week-09-React/static/js/2.c93fbb7c.chunk.js",
-    "static/js/2.c93fbb7c.chunk.js.map": "/week-09-React/static/js/2.c93fbb7c.chunk.js.map",
+    "static/js/2.e7a4b029.chunk.js": "/week-09-React/static/js/2.e7a4b029.chunk.js",
+    "static/js/2.e7a4b029.chunk.js.map": "/week-09-React/static/js/2.e7a4b029.chunk.js.map",
     "index.html": "/week-09-React/index.html",
-    "precache-manifest.f499a9b81241011217294cc813c2c786.js": "/week-09-React/precache-manifest.f499a9b81241011217294cc813c2c786.js",
+    "precache-manifest.e8da33e824bafa0811ed4e9d07975399.js": "/week-09-React/precache-manifest.e8da33e824bafa0811ed4e9d07975399.js",
     "service-worker.js": "/week-09-React/service-worker.js",
     "static/css/main.cf22d254.chunk.css.map": "/week-09-React/static/css/main.cf22d254.chunk.css.map",
-    "static/js/2.c93fbb7c.chunk.js.LICENSE.txt": "/week-09-React/static/js/2.c93fbb7c.chunk.js.LICENSE.txt"
+    "static/js/2.e7a4b029.chunk.js.LICENSE.txt": "/week-09-React/static/js/2.e7a4b029.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1ea44539.js",
-    "static/js/2.c93fbb7c.chunk.js",
+    "static/js/2.e7a4b029.chunk.js",
     "static/css/main.cf22d254.chunk.css",
-    "static/js/main.bfb1ace5.chunk.js"
+    "static/js/main.5b415f50.chunk.js"
   ]
 }
