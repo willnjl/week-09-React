@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/https://github.com/willnjl/week-09-React/static/css/main.cf22d254.chunk.css",
+    "main.js": "/https://github.com/willnjl/week-09-React/static/js/main.0a49cc2f.chunk.js",
+    "main.js.map": "/https://github.com/willnjl/week-09-React/static/js/main.0a49cc2f.chunk.js.map",
+    "runtime-main.js": "/https://github.com/willnjl/week-09-React/static/js/runtime-main.58b0464d.js",
+    "runtime-main.js.map": "/https://github.com/willnjl/week-09-React/static/js/runtime-main.58b0464d.js.map",
+    "static/js/2.c93fbb7c.chunk.js": "/https://github.com/willnjl/week-09-React/static/js/2.c93fbb7c.chunk.js",
+    "static/js/2.c93fbb7c.chunk.js.map": "/https://github.com/willnjl/week-09-React/static/js/2.c93fbb7c.chunk.js.map",
+    "index.html": "/https://github.com/willnjl/week-09-React/index.html",
+    "precache-manifest.cc077ec564d5fb69a2c0a74512bf53a5.js": "/https://github.com/willnjl/week-09-React/precache-manifest.cc077ec564d5fb69a2c0a74512bf53a5.js",
+    "service-worker.js": "/https://github.com/willnjl/week-09-React/service-worker.js",
+    "static/css/main.cf22d254.chunk.css.map": "/https://github.com/willnjl/week-09-React/static/css/main.cf22d254.chunk.css.map",
+    "static/js/2.c93fbb7c.chunk.js.LICENSE.txt": "/https://github.com/willnjl/week-09-React/static/js/2.c93fbb7c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58b0464d.js",
+    "static/js/2.c93fbb7c.chunk.js",
+    "static/css/main.cf22d254.chunk.css",
+    "static/js/main.0a49cc2f.chunk.js"
+  ]
+}
