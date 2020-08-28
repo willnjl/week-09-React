@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import CatchMe from "./CatchMe";
 import ProgressChallenge from "./ProgressChallenge";
 import Password from "./Password";
-import List from "./List";
+import ListChallenge from "./ListChallenge";
 
 export default function Prebuilt() {
 	return (
@@ -11,7 +11,7 @@ export default function Prebuilt() {
 			<Password />
 			<CatchMe />
 			<ProgressChallenge />
-			<List />
+			<ListChallenge />
 		</Container>
 	);
 }
