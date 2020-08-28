@@ -3,10 +3,10 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // import Header from "./Header";
 // // import logo from './logo.svg';
-import Stuff from "./components/Stuff";
+// import Stuff from "./components/Stuff";
 // import Events from "./components/events/Events";
 // import Tricksy from "./components/Tricksy";
-import Fade from "./components/Fade";
+// import Fade from "./components/Fade";
 // import EventsTricksy from "./components/events/EventsTricksy";
 // import LifeCycleChallenges from "./components/lifecycle/LifeCycleChallenges";
 // import Forms from "./components/forms/Forms";
@@ -33,13 +33,13 @@ function App() {
 				}}
 			>
 				{/* <Routing /> */}
-				<Fade time={"10s"}>{/* <Stuff products={products} /> */}</Fade>
-				<Prebuilt />
+
 				{/* <Tricksy /> */}
 				{/* <Events /> */}
 				{/* <EventsTricksy /> */}
 				{/* <LifeCycleChallenges /> */}
 				{/* <Forms /> */}
+				<Prebuilt />
 			</div>
 		</main>
 	);

@@ -21,7 +21,7 @@ export default class ProgressChallenge extends Component {
 		return (
 			<div style={{ margin: "100px auto", width: "50%" }}>
 				<Progress now={this.state.val} />
-				<Button onClick={(e) => this.handleClick(e)}>Button</Button>
+				<Button onClick={(e) => this.handleClick(e)}>Progress</Button>
 			</div>
 		);
 	}
