@@ -1,16 +1,16 @@
 import React from "react";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
-// import Header from "./Header";
-// // import logo from './logo.svg';
-// import Stuff from "./components/Stuff";
-// import Events from "./components/events/Events";
-// import Tricksy from "./components/Tricksy";
-// import Fade from "./components/Fade";
-// import EventsTricksy from "./components/events/EventsTricksy";
-// import LifeCycleChallenges from "./components/lifecycle/LifeCycleChallenges";
+import Header from "./components/Header";
+// import logo from './logo.svg';
+import Stuff from "./components/Stuff";
+import Events from "./components/events/Events";
+import Tricksy from "./components/Tricksy";
+import Fade from "./components/Fade";
+import EventsTricksy from "./components/events/EventsTricksy";
+import LifeCycleChallenges from "./components/lifecycle/LifeCycleChallenges";
 // import Forms from "./components/forms/Forms";
-// import Routing from "./components/Routing";
+import Routing from "./components/Routing";
 import Prebuilt from "./components/prebuilt/Prebuilt";
 import "./App.css";
 
@@ -34,12 +34,12 @@ function App() {
 			>
 				{/* <Routing /> */}
 
-				{/* <Tricksy /> */}
-				{/* <Events /> */}
-				{/* <EventsTricksy /> */}
-				{/* <LifeCycleChallenges /> */}
+				<Tricksy />
+				<Events />
+				<EventsTricksy />
+				<LifeCycleChallenges />
 				{/* <Forms /> */}
-				<Prebuilt />
+				{/* <Prebuilt /> */}
 			</div>
 		</main>
 	);
