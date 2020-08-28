@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/week-09-React/tree/master/01-components/static/css/main.cf22d254.chunk.css",
-    "main.js": "/week-09-React/tree/master/01-components/static/js/main.f74c86f5.chunk.js",
-    "main.js.map": "/week-09-React/tree/master/01-components/static/js/main.f74c86f5.chunk.js.map",
-    "runtime-main.js": "/week-09-React/tree/master/01-components/static/js/runtime-main.4680e1e9.js",
-    "runtime-main.js.map": "/week-09-React/tree/master/01-components/static/js/runtime-main.4680e1e9.js.map",
-    "static/js/2.c93fbb7c.chunk.js": "/week-09-React/tree/master/01-components/static/js/2.c93fbb7c.chunk.js",
-    "static/js/2.c93fbb7c.chunk.js.map": "/week-09-React/tree/master/01-components/static/js/2.c93fbb7c.chunk.js.map",
-    "index.html": "/week-09-React/tree/master/01-components/index.html",
-    "precache-manifest.77661b8a54ec61524453eefe0b6a1868.js": "/week-09-React/tree/master/01-components/precache-manifest.77661b8a54ec61524453eefe0b6a1868.js",
-    "service-worker.js": "/week-09-React/tree/master/01-components/service-worker.js",
-    "static/css/main.cf22d254.chunk.css.map": "/week-09-React/tree/master/01-components/static/css/main.cf22d254.chunk.css.map",
-    "static/js/2.c93fbb7c.chunk.js.LICENSE.txt": "/week-09-React/tree/master/01-components/static/js/2.c93fbb7c.chunk.js.LICENSE.txt"
+    "main.css": "/week-09-React/static/css/main.cf22d254.chunk.css",
+    "main.js": "/week-09-React/static/js/main.bfb1ace5.chunk.js",
+    "main.js.map": "/week-09-React/static/js/main.bfb1ace5.chunk.js.map",
+    "runtime-main.js": "/week-09-React/static/js/runtime-main.1ea44539.js",
+    "runtime-main.js.map": "/week-09-React/static/js/runtime-main.1ea44539.js.map",
+    "static/js/2.c93fbb7c.chunk.js": "/week-09-React/static/js/2.c93fbb7c.chunk.js",
+    "static/js/2.c93fbb7c.chunk.js.map": "/week-09-React/static/js/2.c93fbb7c.chunk.js.map",
+    "index.html": "/week-09-React/index.html",
+    "precache-manifest.f499a9b81241011217294cc813c2c786.js": "/week-09-React/precache-manifest.f499a9b81241011217294cc813c2c786.js",
+    "service-worker.js": "/week-09-React/service-worker.js",
+    "static/css/main.cf22d254.chunk.css.map": "/week-09-React/static/css/main.cf22d254.chunk.css.map",
+    "static/js/2.c93fbb7c.chunk.js.LICENSE.txt": "/week-09-React/static/js/2.c93fbb7c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4680e1e9.js",
+    "static/js/runtime-main.1ea44539.js",
     "static/js/2.c93fbb7c.chunk.js",
     "static/css/main.cf22d254.chunk.css",
-    "static/js/main.f74c86f5.chunk.js"
+    "static/js/main.bfb1ace5.chunk.js"
   ]
 }
