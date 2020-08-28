@@ -32,12 +32,12 @@ function App() {
 					margin: "auto",
 				}}
 			>
-				{/* <Routing /> */}
+				<Routing />
 
-				<Tricksy />
-				<Events />
-				<EventsTricksy />
-				<LifeCycleChallenges />
+				{/* <Tricksy /> */}
+				{/* <Events /> */}
+				{/* <EventsTricksy /> */}
+				{/* <LifeCycleChallenges /> */}
 				{/* <Forms /> */}
 				{/* <Prebuilt /> */}
 			</div>
